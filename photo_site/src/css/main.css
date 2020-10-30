@@ -2,8 +2,7 @@
 body {
   background-color: #3a3b3a;
   margin: 0;
-  padding: 0;
-  height: 200vh; }
+  padding: 0; }
 
 html {
   font-family: 'Open Sans';
@@ -100,3 +99,31 @@ li {
     .content-box .links div p {
       text-align: right;
       font-size: 1.5rem; }
+  .content-box .product {
+    text-align: center;
+    font-size: 1.4rem; }
+  .content-box .first-block {
+    margin: 5px 0 5px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
+  .content-box .second-block {
+    width: 75%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
