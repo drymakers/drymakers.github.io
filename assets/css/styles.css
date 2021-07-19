@@ -162,4 +162,5 @@ footer {
     flex-wrap: wrap; } }
 @media screen and (max-width: 900px) {
   .container {
-    margin: 0 5% 0 5%; } }
+    margin: 0 5% 0 5%; } 
+}
